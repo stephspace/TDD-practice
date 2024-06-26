@@ -1,4 +1,4 @@
-const capitalize = require('./capital');
+const capitalize = require('./capitalize');
 
 test('Capitalize john to John', () => {
     expect(capitalize('john')).toBe('John');
