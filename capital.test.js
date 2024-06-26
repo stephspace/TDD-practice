@@ -1,13 +1,13 @@
-const capital = require('./capital');
+const capitalize = require('./capital');
 
 test('Capitalize john to John', () => {
-    expect(capital('john')).toBe('John');
+    expect(capitalize('john')).toBe('John');
 });
 
 test('hello World to Hello World', () => {
-    expect(capital('hello World')).toBe('Hello World');
+    expect(capitalize('hello World')).toBe('Hello World');
 });
 
 test('practice to Practice', () => {
-    expect(capital('practice')).toBe('Practice');
+    expect(capitalize('practice')).toBe('Practice');
 });
