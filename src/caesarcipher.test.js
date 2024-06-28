@@ -8,7 +8,7 @@ test('HeLLo to KhOOr', () => {
     expect(caesarcipher('HeLLo', 3)).toBe('KhOOr');
 });
 
-test('', () => {
-    expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
+test('Hello, World! to Khoor, Zruog!', () => {
+    expect(caesarcipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
 });
 

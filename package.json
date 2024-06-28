@@ -4,7 +4,7 @@
   "description": "Test driven Developement(TDD) Practice",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
