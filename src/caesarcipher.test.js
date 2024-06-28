@@ -11,4 +11,3 @@ test('HeLLo to KhOOr', () => {
 test('Hello, World! to Khoor, Zruog!', () => {
     expect(caesarcipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
 });
-

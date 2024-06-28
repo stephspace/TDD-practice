@@ -11,3 +11,11 @@ test('hello World to Hello World', () => {
 test('practice to Practice', () => {
     expect(capitalize('practice')).toBe('Practice');
 });
+
+test("handles an empty string", () => {
+    expect(capitalize("")).toBe("");
+});
+
+test("handles an empty string", () => {
+    expect(capitalize("a")).toBe("A");
+});
